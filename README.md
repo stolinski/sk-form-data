@@ -1,5 +1,7 @@
 # SvelteKit Form Data
 
+[![install size](https://packagephobia.com/badge?p=sk-form-data)](https://packagephobia.com/result?p=sk-form-data)
+
 A middleware that automatically parses your SvelteKit form data for Svelte Form Actions
 
 ### Install
@@ -11,6 +13,7 @@ A middleware that automatically parses your SvelteKit form data for Svelte Form 
 ```typescript
 // hooks.server.ts
 import { sequence } from '@sveltejs/kit/hooks'
+import { form_data } from 'sk-form-data'
 
 // Sequence comes from SK and allows you to add many hooks.
 // ie. export const handle = sequence(logging, auth, form_data)
