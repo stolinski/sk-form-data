@@ -1,0 +1,26 @@
+{
+	"author": "Scott Tolinski",
+	"dependencies": {
+		"parse-nested-form-data": "^1.0.0"
+	},
+	"description": "A hook / middleware to automatically parse form data in Svelte Kit.",
+	"devDependencies": {
+		"@sveltejs/kit": "^1.5.3",
+		"typescript": "^4.9.5"
+	},
+	"keywords": [
+		"svelte",
+		"sveltejs",
+		"svelte kit"
+	],
+	"license": "ISC",
+	"main": "dist/index.js",
+	"name": "sk-form-data",
+	"scripts": {
+		"prepublish": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"type": "module",
+	"types": "dist/index.d.ts",
+	"version": "1.0.0"
+}
