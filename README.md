@@ -6,7 +6,7 @@ A middleware that automatically parses your SvelteKit form data for use with [Sv
 
 ## Why?
 
-This reduces boilerplate within [SvelteKit form actions](https://kit.svelte.dev/docs/form-actions) where the developer is tasked with parsing individual values from [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData) or manually looping over entities via `form_data.entries()`. 
+This reduces boilerplate within [SvelteKit form actions](https://kit.svelte.dev/docs/form-actions) where the developer is tasked with parsing individual values from [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData) or manually looping over entities via `formData.entries()`. 
 
 
 ## Setup
