@@ -6,9 +6,7 @@ A middleware that automatically parses your SvelteKit form data for use with [Sv
 
 ## Why?
 
-This reduces form validation boilerplate and works great with a schema validation library like [Zod](https://zod.dev/). 
-
-![image](https://user-images.githubusercontent.com/38083522/218318411-5eed31f3-9f58-4a36-97e4-d47bbba0e893.png)
+This reduces boilerplate within [SvelteKit form actions](https://kit.svelte.dev/docs/form-actions) where the developer is tasked with parsing individual values from [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData) or manually looping over entities via `form_data.entries()`. 
 
 
 ## Setup
