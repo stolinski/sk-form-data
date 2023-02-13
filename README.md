@@ -34,6 +34,20 @@ import { form_data } from 'sk-form-data'
 export const handle = sequence(form_data)
 ```
 
+### Add Types
+
+If you're using TypeScript add these types inside `src/app.d.ts`.
+
+```ts
+// app.d.ts
+
+declare namespace App {
+  interface Locals {
+    form_data: Record<string, any>
+  }
+}
+```
+
 ### Use Inside Actions
 
 Your form actions will have a new `form_data` property in `locals`.
