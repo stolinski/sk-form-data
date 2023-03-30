@@ -1,6 +1,7 @@
 {
 	"author": "Scott Tolinski",
 	"dependencies": {
+		"@remix-run/web-file": "^3.0.2",
 		"parse-nested-form-data": "^1.0.0"
 	},
 	"description": "A hook / middleware to automatically parse form data in Svelte Kit.",
