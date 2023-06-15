@@ -6,8 +6,8 @@
 	},
 	"description": "A hook / middleware to automatically parse form data in Svelte Kit.",
 	"devDependencies": {
-		"@sveltejs/kit": "^1.15.9",
-		"typescript": "^5.0.4"
+		"@sveltejs/kit": "^1.20.2",
+		"typescript": "^5.1.3"
 	},
 	"keywords": [
 		"svelte",
