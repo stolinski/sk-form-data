@@ -1,27 +1,27 @@
 {
-	"author": "Scott Tolinski",
-	"dependencies": {
-		"@remix-run/web-file": "^3.0.2",
-		"parse-nested-form-data": "^1.0.0"
-	},
-	"description": "A hook / middleware to automatically parse form data in Svelte Kit.",
-	"devDependencies": {
-		"@sveltejs/kit": "^1.20.2",
-		"typescript": "^5.1.3"
-	},
-	"keywords": [
-		"svelte",
-		"sveltejs",
-		"svelte kit"
-	],
-	"license": "ISC",
-	"main": "dist/index.js",
-	"name": "sk-form-data",
-	"scripts": {
-		"prepublish": "tsc",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"type": "module",
-	"types": "dist/index.d.ts",
-	"version": "1.0.1"
+  "author": "Scott Tolinski",
+  "dependencies": {
+    "@remix-run/web-file": "^3.0.2",
+    "parse-nested-form-data": "^1.0.0"
+  },
+  "description": "A hook / middleware to automatically parse form data in Svelte Kit.",
+  "devDependencies": {
+    "@sveltejs/kit": "^2.5.18",
+    "typescript": "^5.1.3"
+  },
+  "keywords": [
+    "svelte",
+    "sveltejs",
+    "svelte kit"
+  ],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "name": "sk-form-data",
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "version": "2.0.0"
 }
