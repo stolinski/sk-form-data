@@ -3,8 +3,8 @@ import { parseFormData } from "parse-nested-form-data";
 
 export const form_data: Handle = async ({ event, resolve }) => {
   // Only look for form data
-  const is_action =
-    event.request.headers.get("content-type") === "application/x-www-form-urlencoded";
+  const contentType = event.request.headers.get("content-type")?.split(';')[0].trim();
+  const is_action = ["application/x-www-form-urlencoded", "multipart/form-data"].includes(contentType ?? "");
 
   if (event.request.method === "POST" && is_action) {
     try {
