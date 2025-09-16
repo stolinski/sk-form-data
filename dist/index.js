@@ -1,7 +1,7 @@
 import { parseFormData } from "parse-nested-form-data";
 export const form_data = async ({ event, resolve }) => {
     // Only look for form data
-    const is_action = event.request.headers.get("content-type") === "application/x-www-form-urlencoded";
+    const is_action = event.request.headers.get("content-type") === "application/x-www-form-urlencoded" || event.isRemoteRequest;
     if (event.request.method === "POST" && is_action) {
         try {
             // Make a clone to prevent error in already read body

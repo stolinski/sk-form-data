@@ -63,6 +63,19 @@ export const actions = {
 }
 ```
 
+### Use Remote Functins
+
+Inside the Remote Functions use the `getRequestEvent` to get the `locals`, which contain parsed `form_data`.
+
+```ts
+// index.remote.ts
+
+export const createPost = form(async (data) => {
+	const { locals: { form_data } } = getRequestEvent(); // whatever you sent from your form
+	// do rest of your stuff...
+});
+```
+
 ## Example
 
 Use a form as you would in SvelteKit but keep in mind you can only use the `POST` method.
